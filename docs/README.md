@@ -12,5 +12,5 @@ features:
   details: Lo mas simple y ligero posible para que no interfiera en el performance de la pagina.
 - title: Seguro
   details: La seguridad es uno de los principios de uso de estos elementos.
-footer: MIT Licensed | Copyright © 2019-present Giorgio Saud
+footer: MIT Licensed | Copyright © 2019-present GiorgioSaud
 ---
