@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "5dac422829755f4ff49752d80c6ee5b3"
+    "revision": "737c97c98b42de41674c076a1edc1ce0"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -136,20 +136,20 @@ self.__precacheManifest = [
     "revision": "a3e30f502d1940b8437068c6cd3d24cc"
   },
   {
-    "url": "assets/js/app.b6405d7b.js",
-    "revision": "db03ae9b4fc6e31e2a1415c3616be6f8"
+    "url": "assets/js/app.c9a08957.js",
+    "revision": "285e75d0170e8b24ca8e8b9c922371d6"
   },
   {
     "url": "en/index.html",
-    "revision": "127fc1c1cfdead900bbd31f7c2d4cdf0"
+    "revision": "952c5fadd583bfe5951f0ee05e26e08b"
   },
   {
     "url": "en/integrations/index.html",
-    "revision": "74511b73115c07c542154070c563039d"
+    "revision": "37d93b66ecdee224cc99429cca6b8ac0"
   },
   {
     "url": "en/integrations/OIDC/index.html",
-    "revision": "fd573d643ec12cebb1d2064c360b63f3"
+    "revision": "637a8ab0621349cce2e58317bfadd0c7"
   },
   {
     "url": "enhanceAppFile.js",
@@ -165,15 +165,15 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d0d2c7a3ec71b24ce359ebd985af4054"
+    "revision": "649221447b0298467851741033cd0940"
   },
   {
     "url": "integrations/index.html",
-    "revision": "dca1670f9eea0b1822aa85fc871f9d57"
+    "revision": "a2e84da243d84e08ec441205e71c3fed"
   },
   {
     "url": "integrations/OIDC/index.html",
-    "revision": "787e15549df1b714a0e1d8ac8996d547"
+    "revision": "8bf4aae188d410c830a75d3f8431b0b9"
   },
   {
     "url": "mstile-150x150.png",
