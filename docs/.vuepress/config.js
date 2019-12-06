@@ -1,4 +1,5 @@
 module.exports = {
+  base:'/front-docs/',
   title: "Modyo Front End Documentation.",
   description: "Welcome to the Modyo Front End Center",
   head:[
