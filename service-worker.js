@@ -11,7 +11,13 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -21,7 +27,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d18978cfb128e85b174565b313b3ec67"
+    "revision": "d5186983d611bf52e76443db81281d24"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -136,20 +142,20 @@ self.__precacheManifest = [
     "revision": "a3e30f502d1940b8437068c6cd3d24cc"
   },
   {
-    "url": "assets/js/app.aed60e3d.js",
-    "revision": "af2cc4dd52a80bebe4cbd31272603e3d"
+    "url": "assets/js/app.8b1797b9.js",
+    "revision": "59a4908a74e00cf7826787e5a84bad36"
   },
   {
     "url": "en/index.html",
-    "revision": "00793189f8326df34ab86384b6e45217"
+    "revision": "5e12ab7ac9bbca0e7bd42493bf80c679"
   },
   {
     "url": "en/integrations/index.html",
-    "revision": "94cd610e440b0ea7c9eea45e4043a826"
+    "revision": "0ff9be5c1e7725463446cb0ebc945492"
   },
   {
     "url": "en/integrations/OIDC/index.html",
-    "revision": "877ac83b5894c54d2b6a51627aac452a"
+    "revision": "603303113eea062642609ef2eef5479c"
   },
   {
     "url": "enhanceAppFile.js",
@@ -165,15 +171,15 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3f2aa344f50a10a5fb24736d85e6a2e9"
+    "revision": "da45ca1ddb6243448583a90b85857679"
   },
   {
     "url": "integrations/index.html",
-    "revision": "b367a83005bc46fe46ca8dab6c4f181c"
+    "revision": "9b2f0c98ee25c0f6ed1fe6af37bceed5"
   },
   {
     "url": "integrations/OIDC/index.html",
-    "revision": "89515dabe59f232f584b75f12f7b9f5d"
+    "revision": "fbcdd4cd2beb58b05ba3f6b193fe08da"
   },
   {
     "url": "mstile-150x150.png",
@@ -184,7 +190,6 @@ self.__precacheManifest = [
     "revision": "739443725e4d9d6fd210f5de7b4fb21d"
   }
 ].concat(self.__precacheManifest || []);
-workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 addEventListener('message', event => {
   const replyPort = event.ports[0]
