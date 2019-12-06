@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d5186983d611bf52e76443db81281d24"
+    "revision": "c62b3e3ff4795f808e7c16a252de9884"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -42,8 +42,8 @@ self.__precacheManifest = [
     "revision": "b68b837eaabffaeeb3c9ddfbce9054c5"
   },
   {
-    "url": "assets/css/0.styles.8a4b594e.css",
-    "revision": "56047b50cd0f07eedfc5d86d970947f5"
+    "url": "assets/css/0.styles.0a022410.css",
+    "revision": "6f8d4dd86a89b3da20601324f8b13af5"
   },
   {
     "url": "assets/img/hero.jpg",
@@ -142,20 +142,20 @@ self.__precacheManifest = [
     "revision": "a3e30f502d1940b8437068c6cd3d24cc"
   },
   {
-    "url": "assets/js/app.8b1797b9.js",
-    "revision": "59a4908a74e00cf7826787e5a84bad36"
+    "url": "assets/js/app.0ca6469d.js",
+    "revision": "ad98de6aa073ce4442038e0463197b43"
   },
   {
     "url": "en/index.html",
-    "revision": "5e12ab7ac9bbca0e7bd42493bf80c679"
+    "revision": "8a91748fa75dcf5bdea014c95f130f39"
   },
   {
     "url": "en/integrations/index.html",
-    "revision": "0ff9be5c1e7725463446cb0ebc945492"
+    "revision": "3d922b7fb961e8ba814de45e55b48df1"
   },
   {
     "url": "en/integrations/OIDC/index.html",
-    "revision": "603303113eea062642609ef2eef5479c"
+    "revision": "485643341b018d1bf026955c1b8ab35c"
   },
   {
     "url": "enhanceAppFile.js",
@@ -171,15 +171,15 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "da45ca1ddb6243448583a90b85857679"
+    "revision": "531def45851c336abb8359c3eeb17af8"
   },
   {
     "url": "integrations/index.html",
-    "revision": "9b2f0c98ee25c0f6ed1fe6af37bceed5"
+    "revision": "54baf3c1e46ef975c142309595e55f5b"
   },
   {
     "url": "integrations/OIDC/index.html",
-    "revision": "fbcdd4cd2beb58b05ba3f6b193fe08da"
+    "revision": "110a06296457222c0ddf0c9415537777"
   },
   {
     "url": "mstile-150x150.png",
