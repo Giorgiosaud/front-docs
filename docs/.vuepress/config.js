@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Modyo Front End Documentation",
+  title: "Modyo Front End Documentation.",
   description: "Welcome to the Modyo Front End Center",
   head:[
     ['link', { rel: 'apple-touch-icon',sizes:'180x180', href: '/apple-touch-icon.png' }],
